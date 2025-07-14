@@ -1,0 +1,42 @@
+# Ignore all files without extensions (binary executables)
+*
+!*/
+!*.*
+
+# Allow C++ source files
+!*.cpp
+!*.hpp
+!*.h
+!*.cc
+!*.cxx
+
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.lib
+
+# Ignore common IDE/editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore common build directories
+build/
+bin/
+obj/
+debug/
+release/
+
+# Ignore other common files
+.DS_Store
+Thumbs.db
+*.log
+core 
